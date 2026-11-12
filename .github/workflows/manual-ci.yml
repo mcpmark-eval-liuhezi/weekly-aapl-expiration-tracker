@@ -1,0 +1,11 @@
+name: Manual CI Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo-line:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo tracking line
+        run: echo "AAPL expiration tracker: weekly chain stats synced to main."
