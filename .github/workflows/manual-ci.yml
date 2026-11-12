@@ -1,7 +1,6 @@
 name: Manual CI Check
 
-on:
-  workflow_dispatch:
+workflow_dispatch:
 
 jobs:
   echo-line:
